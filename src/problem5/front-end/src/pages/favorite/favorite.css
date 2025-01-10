@@ -1,0 +1,28 @@
+.favorite-wrapper {
+    flex: 1;
+    display: flex;
+    margin-left: 70px;
+    flex-direction: column;
+    background-color: #f1f1f1;
+    box-sizing: border-box;
+    align-items: center;
+    height: 100%;
+}
+.favorite-content-container {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    margin-top: 30px;
+    height: auto;
+}
+
+.favorite-content-header {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.favorite-no-data-notify-container {
+    display: flex;
+    align-items: center;
+    width: 100%;
+}

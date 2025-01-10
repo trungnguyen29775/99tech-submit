@@ -1,0 +1,22 @@
+.order-wrapper {
+    display: flex;
+    margin-left: 70px;
+    flex: 1;
+    background-color: #f1f1f1;
+    flex-direction: column;
+    box-sizing: border-box;
+    padding: 10px 30px;
+    height: 100vh;
+}
+.order-page-header {
+    width: 100%;
+    text-align: left;
+    margin-top: 80px;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.order-page-content span {
+    font-size: 32px;
+    font-weight: 700;
+}

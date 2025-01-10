@@ -1,0 +1,23 @@
+.succeed-wrapper {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    background-color: transparent;
+    position: absolute;
+    z-index: 3;
+}
+
+.succeed-notify {
+    display: flex;
+    background-color: var(--primary);
+    margin: auto;
+    border-radius: 20px;
+    color: white;
+    font-size: 28px;
+    font-weight: 700;
+    padding: 30px 30px;
+}
+
+.succeed-notify span {
+    margin: auto;
+}

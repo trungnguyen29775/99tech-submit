@@ -1,0 +1,139 @@
+.address-wrapper {
+    display: flex;
+    flex-direction: column;
+    margin-left: 70px;
+    flex: 1;
+    box-sizing: border-box;
+    padding: 10px 20px;
+    padding-top: 0px;
+    background-color: rgb(241, 241, 241);
+    height: 100vh;
+    overflow-y: auto;
+}
+
+.address-content {
+    display: flex;
+    flex-direction: column;
+    margin-top: 40px;
+    width: 100%;
+    align-items: center;
+}
+.address-header {
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.address-list-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.address-list {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin-top: 50px;
+    flex-wrap: wrap;
+    align-items: flex-start;
+}
+
+.address-item {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px 0 rgba(0, 0, 0, 0.151);
+    transition: transform ease 1;
+    margin: 20px;
+}
+
+.address-item:hover {
+    transform: scale(1.02);
+    cursor: pointer;
+}
+
+.address-item__span {
+    margin: 10px 0px;
+    font-size: 18px;
+    font-weight: 600;
+    color: var(--text-gray);
+}
+
+.add-address-container {
+    font-size: 1.17em;
+}
+.address-notify {
+    display: block;
+    font-size: 1.17em;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+
+.add-address__button {
+    padding: 20px;
+    border: 1px dashed rgb(163, 163, 163);
+    background: #fff;
+    border-radius: 3px;
+    cursor: pointer;
+    color: var(--primary);
+    width: 100%;
+    font-size: 20px;
+    box-sizing: border-box;
+}
+
+.add-address-form-container {
+    position: absolute;
+    background-color: rgba(24, 24, 24, 0.345);
+    display: flex;
+    z-index: 4;
+    height: 100vh;
+    width: 100vw;
+    left: 0;
+}
+
+.add-address-form {
+    margin: auto;
+    height: 80%;
+    width: 500px;
+    background-color: white;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 20px;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.address-form__span {
+    margin-top: 10px;
+    font-size: 20px;
+    font-weight: 700;
+    color: var(--primary);
+}
+
+.address-form__input {
+    width: 70%;
+    border-radius: 10px;
+    color: rgb(42, 20, 2);
+    font-weight: 600;
+    font-size: 15px;
+}
+
+.address-form__button {
+    width: 80%;
+    color: white;
+    border-radius: 10px;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.add-address-form-container.hide {
+    display: none;
+}
