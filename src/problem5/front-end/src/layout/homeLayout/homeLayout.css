@@ -1,0 +1,19 @@
+.home-layout-wrapper {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    justify-content: space-between;
+    overflow: hidden;
+    overflow-y: auto;
+}
+
+.home-layout-wrapper.overflow-hidden {
+    overflow: hidden;
+}
+
+.home-layout-wrapper button:hover {
+    cursor: pointer;
+    opacity: 0.9;
+}

@@ -1,0 +1,29 @@
+.order-list-element {
+    width: 90%;
+    background-color: #fff;
+    margin: 16px 0;
+    padding: 16px;
+    border-radius: 5px;
+    box-shadow: 7px 9px 17px 3px rgba(0, 0, 0, 0.44);
+    -webkit-box-shadow: 7px 9px 17px 3px rgba(0, 0, 0, 0.44);
+    -moz-box-shadow: 7px 9px 17px 3px rgba(0, 0, 0, 0.44);
+}
+.order-detail-item {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #888888;
+}
+
+.order-list-element button {
+    border-radius: 3px;
+    margin: 0 10px;
+    background: #f49001;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    font-size: 17px;
+    min-width: 70px;
+    outline: none;
+    padding: 5px 10px;
+    margin: 4px auto;
+}

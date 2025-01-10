@@ -1,0 +1,115 @@
+.type-list-container {
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+    flex-wrap: wrap;
+}
+
+.type-list-element-container {
+    height: 150px;
+    width: 150px;
+    overflow: hidden;
+}
+
+.type-list-element__img {
+    height: 150px;
+    width: 150px;
+}
+
+.type-list-element {
+    padding: 15px;
+    border-radius: 10px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px;
+    position: relative;
+}
+
+.type-list-element:hover {
+    cursor: pointer;
+    opacity: 0.8;
+}
+
+.type-list-element .name-food {
+    font-size: 16px;
+    color: var(--text-gray);
+
+    font-weight: 600;
+    width: 100%;
+}
+
+.star-container {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    font-size: 13px;
+    color: var(--primary);
+    margin-top: 5px;
+}
+
+.number-left {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    font-size: 15px;
+    color: black;
+    align-items: center;
+}
+
+.number-left .highlight {
+    color: var(--primary);
+    font-size: 13px;
+}
+
+.add-food {
+    display: flex;
+    background-color: var(--primary);
+    color: white;
+    border-radius: 50%;
+    padding: 10px;
+    align-items: center;
+    font-size: 15px;
+}
+
+.add-food:hover {
+    background-color: var(--secondary);
+    cursor: pointer;
+}
+
+.delete-product-button {
+    position: absolute;
+    top: -10px;
+    right: -5px;
+    background-color: var(--danger);
+    height: 30px;
+    width: 30px;
+    font-size: 12px;
+    border-radius: 50%;
+    color: white;
+    display: flex;
+    font-weight: 700;
+}
+
+.favorite-product-button {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    background: transparent;
+    background-color: rgba(241, 115, 115, 0.34);
+    height: 30px;
+    width: 30px;
+    font-size: 15px;
+    border-radius: 50%;
+    color: var(--danger);
+    display: flex;
+    font-weight: 700;
+}
+
+.price-food {
+    width: 100%;
+    font-size: 15px;
+    margin: 5px 0px;
+}

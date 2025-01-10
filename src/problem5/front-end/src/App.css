@@ -1,0 +1,23 @@
+body {
+    height: 100vh;
+    width: 100vw;
+    overflow-x: hidden;
+}
+.App {
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+    width: 100%;
+    justify-content: space-between;
+}
+
+#root {
+    --primary: #f49001;
+    --secondary: #ffd9a3;
+    --danger: rgb(241, 70, 70);
+    --success: rgb(32, 233, 32);
+    --text-gray: rgb(136, 135, 135);
+    height: 100%;
+    width: 100%;
+}
+

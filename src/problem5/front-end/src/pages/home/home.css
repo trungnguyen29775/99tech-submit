@@ -1,0 +1,135 @@
+.home-wrapper {
+    display: flex;
+    align-items: center;
+    color: var(--text-gray);
+    background-color: #f1f1f1;
+    margin-left: 70px;
+    box-sizing: border-box;
+    align-items: center;
+    flex-direction: column;
+    padding: 35px 10px;
+    height: 100%;
+    width: 100%;
+    padding-top: 0px;
+    overflow: hidden;
+    overflow-y: auto;
+}
+
+.home-content-container {
+    width: 90%;
+}
+
+.home-welcome {
+    display: flex;
+    flex-direction: row;
+    background-color: var(--secondary);
+    margin-top: 32px;
+    padding: 10px;
+    width: 100%;
+    border-radius: 20px;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+.home-welcom__img {
+    height: 230px;
+    width: 220px;
+}
+
+.welcome-title-container {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    box-sizing: border-box;
+    padding: 20px 10px;
+    margin-left: 60px;
+    color: var(--text-gray);
+    font-weight: 600;
+    font-size: 18px;
+    justify-content: space-evenly;
+}
+
+.welcome-title-container .header {
+    color: black;
+    font-size: 24px;
+    font-weight: 700;
+    width: 100%;
+}
+.welcome-title-container .highlight {
+    color: var(--primary);
+}
+
+.welcome__button {
+    background-color: var(--primary);
+    color: white;
+    border: 0;
+    height: 42px;
+    width: 140px;
+    border-radius: 21px;
+    font-size: 18px;
+    margin-top: 20px;
+}
+
+.home-menu-container {
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+}
+
+.menu-header {
+    color: black;
+    font-weight: 600;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.menu-type-container {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.menu-type {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    border-radius: 10px;
+    color: black;
+    width: 100px;
+    height: 100px;
+    box-sizing: border-box;
+    padding: 10px;
+}
+
+.menu-type:hover {
+    background-color: var(--primary);
+    color: white;
+    cursor: pointer;
+    .menu-type-image-container {
+        background-color: white;
+    }
+}
+
+.menu-type.active {
+    background-color: var(--primary);
+    color: white;
+    .menu-type-image-container {
+        background-color: white;
+    }
+}
+
+.menu-type-image-container {
+    padding: 10px;
+    margin: 5px 0px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+}
+
+.menu-type-image-container img {
+    height: 30px;
+    width: 30px;
+}
